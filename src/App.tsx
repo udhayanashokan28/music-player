@@ -22,7 +22,7 @@ const MusicPlayer = () => {
   //entha song play pananumnu decide panrathuku oru varibale create
   const [currentSongIndex, setCurrentSongIndex] = useState<number>(0);
   //ethana song irukurathu variable store pani vaikiren
-  const [songs, setSongs] = useState<ISong[]>([
+  const [songs] = useState<ISong[]>([
     {
       id: 3,
       title: "ukulele",
